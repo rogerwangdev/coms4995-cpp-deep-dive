@@ -1,0 +1,114 @@
+# ------------------------------
+# C/C++ build artifacts
+# ------------------------------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Dependency files
+*.d
+*.dep
+
+# Precompiled headers / modules
+*.gch
+*.pch
+*.ifc
+
+# Debug symbols
+*.dSYM/
+*.pdb
+
+# ------------------------------
+# CMake
+# ------------------------------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+compile_commands.json
+
+# Common build directories
+build/
+build*/
+cmake-build-*/
+out/
+
+# ------------------------------
+# Autotools / Make
+# ------------------------------
+Makefile
+*.make
+*.cmake
+*.ninja
+.ninja_deps
+.ninja_log
+
+# ------------------------------
+# Coverage / profiling / reports
+# ------------------------------
+*.gcno
+*.gcda
+*.gcov
+*.profraw
+*.profdata
+coverage/
+lcov.info
+
+# ------------------------------
+# Sanitizers / crash dumps
+# ------------------------------
+vgcore.*
+core
+core.*
+
+# ------------------------------
+# Package managers
+# ------------------------------
+# Conan (local cache / generated)
+conan.lock
+conanbuildinfo.*
+conaninfo.txt
+conan_imports_manifest.txt
+
+# vcpkg (local checkout/build trees)
+vcpkg_installed/
+vcpkg/buildtrees/
+vcpkg/packages/
+
+# ------------------------------
+# IDEs / editors
+# ------------------------------
+.vscode/
+.idea/
+*.code-workspace
+
+# clangd / clang tooling
+.cache/
+.clangd/
+.clang-tidy-cache/
+
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.VC.opendb
+
+# ------------------------------
+# OS / misc
+# ------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
