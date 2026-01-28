@@ -1,0 +1,16 @@
+CC  = g++
+CXX = g++ -fno-elide-constructors -std=c++14
+
+CFLAGS   = -g -Wall 
+CXXFLAGS = -g -Wall 
+
+basic4: basic4.o
+
+basic4.o: basic4.cpp
+
+.PHONY: clean
+clean:
+	rm -f *.o basic4
+
+.PHONY: all
+all: clean basic4
